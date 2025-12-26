@@ -1,0 +1,9 @@
+[submodule "ext/SDL"]
+	path = ext/SDL
+	url = https://github.com/libsdl-org/SDL
+[submodule "ext/chipnomad-tracker"]
+	path = ext/chipnomad-tracker
+	url = https://github.com/laamaa/chipnomad-tracker.git
+[submodule "ext/freetype2-ios"]
+	path = ext/freetype2-ios
+	url = https://github.com/cdave1/freetype2-ios
