@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		3A1BB8E32EFDCEE6003E5AB1 /* SDL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BB8E12EFDCE1F003E5AB1 /* SDL3.framework */; };
 		3A1BB8E42EFDCEE6003E5AB1 /* SDL3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BB8E12EFDCE1F003E5AB1 /* SDL3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3A1BBA3F2EFEE2A4003E5AB1 /* DEMO1.cnm in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BB9742EFEE2A4003E5AB1 /* DEMO1.cnm */; };
-		3A1BBA6F2EFEE2A4003E5AB1 /* SkyTrain Funk.cnm in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BB9752EFEE2A4003E5AB1 /* SkyTrain Funk.cnm */; };
-		3A1BBA8C2EFEE2A4003E5AB1 /* PT3-0.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BB96F2EFEE2A4003E5AB1 /* PT3-0.csv */; };
-		3A1BBA8E2EFEE2A4003E5AB1 /* PT3-2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BB9712EFEE2A4003E5AB1 /* PT3-2.csv */; };
+		3A1BBA3F2EFEE2A4003E5AB1 /* DEMO1.cnm in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9742EFEE2A4003E5AB1 /* DEMO1.cnm */; };
+		3A1BBA6F2EFEE2A4003E5AB1 /* SkyTrain Funk.cnm in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9752EFEE2A4003E5AB1 /* SkyTrain Funk.cnm */; };
+		3A1BBA8C2EFEE2A4003E5AB1 /* PT3-0.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB96F2EFEE2A4003E5AB1 /* PT3-0.csv */; };
+		3A1BBA8E2EFEE2A4003E5AB1 /* PT3-2.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9712EFEE2A4003E5AB1 /* PT3-2.csv */; };
 		3A1BBA9B2EFEE2A4003E5AB1 /* help.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9B92EFEE2A4003E5AB1 /* help.c */; };
 		3A1BBA9E2EFEE2A4003E5AB1 /* ayumi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9302EFEE2A4003E5AB1 /* ayumi.c */; };
 		3A1BBA9F2EFEE2A4003E5AB1 /* corelib_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9912EFEE2A4003E5AB1 /* corelib_audio.c */; };
@@ -30,7 +30,6 @@
 		3A1BBAAE2EFEE2A4003E5AB1 /* edit_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9B32EFEE2A4003E5AB1 /* edit_common.c */; };
 		3A1BBAB22EFEE2A4003E5AB1 /* screen_create_folder.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9BF2EFEE2A4003E5AB1 /* screen_create_folder.c */; };
 		3A1BBAB32EFEE2A4003E5AB1 /* corelib_mainloop.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9932EFEE2A4003E5AB1 /* corelib_mainloop.c */; };
-		3A1BBAB42EFEE2A4003E5AB1 /* corelib_file_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9292EFEE2A4003E5AB1 /* corelib_file_stdio.c */; };
 		3A1BBAB62EFEE2A4003E5AB1 /* export_ay.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9B52EFEE2A4003E5AB1 /* export_ay.c */; };
 		3A1BBAB72EFEE2A4003E5AB1 /* font16x24.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB99E2EFEE2A4003E5AB1 /* font16x24.c */; };
 		3A1BBAB82EFEE2A4003E5AB1 /* pitch_table_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9DC2EFEE2A4003E5AB1 /* pitch_table_utils.c */; };
@@ -74,6 +73,12 @@
 		3A1BBAEB2EFEE2A4003E5AB1 /* corelib_gfx.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9922EFEE2A4003E5AB1 /* corelib_gfx.c */; };
 		3A1BBAEC2EFEE2A4003E5AB1 /* screen_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BB9BC2EFEE2A4003E5AB1 /* screen_chain.c */; };
 		3A1BBAF42EFEF010003E5AB1 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1BBAF32EFEEF7E003E5AB1 /* libFreetype2.a */; };
+		3A1BBAFA2EFFCFCA003E5AB1 /* corelib_file_sdl3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BBAF62EFF1F24003E5AB1 /* corelib_file_sdl3.c */; };
+		3A4658422F031B5500A97A8D /* resource_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A4658412F031B5500A97A8D /* resource_init.c */; };
+		3A4658442F031CFB00A97A8D /* Just D Phrygian 177 433.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB96E2EFEE2A4003E5AB1 /* Just D Phrygian 177 433.csv */; };
+		3A4658452F031CFE00A97A8D /* PT3-1.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9702EFEE2A4003E5AB1 /* PT3-1.csv */; };
+		3A4658462F031D0000A97A8D /* PT3-3.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9722EFEE2A4003E5AB1 /* PT3-3.csv */; };
+		3AA61FDE2F007B7100744AC1 /* haptic_feedback_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA61FDD2F007B7100744AC1 /* haptic_feedback_ios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +99,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		3A4658432F031C5A00A97A8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				3A1BBA3F2EFEE2A4003E5AB1 /* DEMO1.cnm in CopyFiles */,
+				3A4658442F031CFB00A97A8D /* Just D Phrygian 177 433.csv in CopyFiles */,
+				3A1BBA6F2EFEE2A4003E5AB1 /* SkyTrain Funk.cnm in CopyFiles */,
+				3A4658462F031D0000A97A8D /* PT3-3.csv in CopyFiles */,
+				3A4658452F031CFE00A97A8D /* PT3-1.csv in CopyFiles */,
+				3A1BBA8C2EFEE2A4003E5AB1 /* PT3-0.csv in CopyFiles */,
+				3A1BBA8E2EFEE2A4003E5AB1 /* PT3-2.csv in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A4C3D6D2ED4F22D0050ACCF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,7 +353,11 @@
 		3A1BBA3B2EFEE2A4003E5AB1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3A1BBA3C2EFEE2A4003E5AB1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A1BBAEE2EFEEF7E003E5AB1 /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = "ext/freetype2-ios/freetype2.xcodeproj"; sourceTree = "<group>"; };
+		3A1BBAF62EFF1F24003E5AB1 /* corelib_file_sdl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = corelib_file_sdl3.c; sourceTree = "<group>"; };
+		3A4658402F031B5500A97A8D /* resource_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource_init.h; sourceTree = "<group>"; };
+		3A4658412F031B5500A97A8D /* resource_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resource_init.c; sourceTree = "<group>"; };
 		3A4C3C9F2ED4F0AD0050ACCF /* chipnomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chipnomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA61FDD2F007B7100744AC1 /* haptic_feedback_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = haptic_feedback_ios.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -340,6 +365,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Main.storyboard",
+				Info.plist,
 			);
 			target = 3A4C3C9E2ED4F0AD0050ACCF /* chipnomad */;
 		};
@@ -436,6 +462,7 @@
 		3A1BB9452EFEE2A4003E5AB1 /* chipnomad_lib */ = {
 			isa = PBXGroup;
 			children = (
+				3A1BBAF72EFF1F24003E5AB1 /* corelib_file_sdl3 */,
 				3A1BB9262EFEE2A4003E5AB1 /* chips */,
 				3A1BB9282EFEE2A4003E5AB1 /* corelib */,
 				3A1BB92A2EFEE2A4003E5AB1 /* corelib_file_stdio */,
@@ -685,6 +712,9 @@
 		3A1BB9982EFEE2A4003E5AB1 /* sdl3-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				3A4658402F031B5500A97A8D /* resource_init.h */,
+				3A4658412F031B5500A97A8D /* resource_init.c */,
+				3AA61FDD2F007B7100744AC1 /* haptic_feedback_ios.m */,
 				3A1BB9912EFEE2A4003E5AB1 /* corelib_audio.c */,
 				3A1BB9922EFEE2A4003E5AB1 /* corelib_gfx.c */,
 				3A1BB9932EFEE2A4003E5AB1 /* corelib_mainloop.c */,
@@ -1087,6 +1117,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3A1BBAF72EFF1F24003E5AB1 /* corelib_file_sdl3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A1BBAF62EFF1F24003E5AB1 /* corelib_file_sdl3.c */,
+			);
+			path = corelib_file_sdl3;
+			sourceTree = "<group>";
+		};
 		3A4C3C962ED4F0AD0050ACCF = {
 			isa = PBXGroup;
 			children = (
@@ -1125,6 +1163,7 @@
 				3A4C3C9C2ED4F0AD0050ACCF /* Frameworks */,
 				3A4C3C9D2ED4F0AD0050ACCF /* Resources */,
 				3A4C3D6D2ED4F22D0050ACCF /* Embed Frameworks */,
+				3A4658432F031C5A00A97A8D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1205,10 +1244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1BBA3F2EFEE2A4003E5AB1 /* DEMO1.cnm in Resources */,
-				3A1BBA6F2EFEE2A4003E5AB1 /* SkyTrain Funk.cnm in Resources */,
-				3A1BBA8C2EFEE2A4003E5AB1 /* PT3-0.csv in Resources */,
-				3A1BBA8E2EFEE2A4003E5AB1 /* PT3-2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,6 +1254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1BBAFA2EFFCFCA003E5AB1 /* corelib_file_sdl3.c in Sources */,
 				3A1BBA9B2EFEE2A4003E5AB1 /* help.c in Sources */,
 				3A1BBA9E2EFEE2A4003E5AB1 /* ayumi.c in Sources */,
 				3A1BBA9F2EFEE2A4003E5AB1 /* corelib_audio.c in Sources */,
@@ -1227,8 +1263,10 @@
 				3A1BBAA42EFEE2A4003E5AB1 /* ayumi_filters.c in Sources */,
 				3A1BBAA52EFEE2A4003E5AB1 /* playback_ay.c in Sources */,
 				3A1BBAA62EFEE2A4003E5AB1 /* screen_phrase.c in Sources */,
+				3A4658422F031B5500A97A8D /* resource_init.c in Sources */,
 				3A1BBAA72EFEE2A4003E5AB1 /* version.c in Sources */,
 				3A1BBAA82EFEE2A4003E5AB1 /* project_ay.c in Sources */,
+				3AA61FDE2F007B7100744AC1 /* haptic_feedback_ios.m in Sources */,
 				3A1BBAA92EFEE2A4003E5AB1 /* screen_project.c in Sources */,
 				3A1BBAAA2EFEE2A4003E5AB1 /* font48x54.c in Sources */,
 				3A1BBAAB2EFEE2A4003E5AB1 /* import_vt2.c in Sources */,
@@ -1236,7 +1274,6 @@
 				3A1BBAAE2EFEE2A4003E5AB1 /* edit_common.c in Sources */,
 				3A1BBAB22EFEE2A4003E5AB1 /* screen_create_folder.c in Sources */,
 				3A1BBAB32EFEE2A4003E5AB1 /* corelib_mainloop.c in Sources */,
-				3A1BBAB42EFEE2A4003E5AB1 /* corelib_file_stdio.c in Sources */,
 				3A1BBAB62EFEE2A4003E5AB1 /* export_ay.c in Sources */,
 				3A1BBAB72EFEE2A4003E5AB1 /* font16x24.c in Sources */,
 				3A1BBAB82EFEE2A4003E5AB1 /* pitch_table_utils.c in Sources */,
@@ -1339,11 +1376,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INCLUDED_EXPLICIT_TARGET_DEPENDENCIES = "\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/chipnomad-agrfwhefqgsbsvgrypzavstbtjdc/Build/Products/Debug-iphoneos/libFreetype2.a\"";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DMOBILE_BUILD";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
@@ -1397,10 +1436,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INCLUDED_EXPLICIT_TARGET_DEPENDENCIES = "\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/chipnomad-agrfwhefqgsbsvgrypzavstbtjdc/Build/Products/Debug-iphoneos/libFreetype2.a\"";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-DMOBILE_BUILD";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				VALIDATE_PRODUCT = YES;
@@ -1426,11 +1467,14 @@
 					"\"$(SRCROOT)/ext/chipnomad-tracker/chipnomad_lib\"/**",
 					"\"$(SRCROOT)/ext/chipnomad-tracker/tracker\"/**",
 				);
+				INFOPLIST_FILE = chipnomad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chipnomad;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
@@ -1471,11 +1515,14 @@
 					"\"$(SRCROOT)/ext/chipnomad-tracker/chipnomad_lib\"/**",
 					"\"$(SRCROOT)/ext/chipnomad-tracker/tracker\"/**",
 				);
+				INFOPLIST_FILE = chipnomad/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Chipnomad;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
