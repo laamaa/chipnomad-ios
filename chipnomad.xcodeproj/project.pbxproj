@@ -79,6 +79,9 @@
 		3A4658452F031CFE00A97A8D /* PT3-1.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9702EFEE2A4003E5AB1 /* PT3-1.csv */; };
 		3A4658462F031D0000A97A8D /* PT3-3.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A1BB9722EFEE2A4003E5AB1 /* PT3-3.csv */; };
 		3AA61FDE2F007B7100744AC1 /* haptic_feedback_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA61FDD2F007B7100744AC1 /* haptic_feedback_ios.m */; };
+		3AF593312F1F6C9C00A9B03D /* keyboard_layout.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF593302F1F6C9C00A9B03D /* keyboard_layout.c */; };
+		3AF593382F1F6CAE00A9B03D /* waveform_display.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF593372F1F6CAE00A9B03D /* waveform_display.c */; };
+		3AF5933B2F1F6CC800A9B03D /* screen_color_theme.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5933A2F1F6CC800A9B03D /* screen_color_theme.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -358,6 +361,12 @@
 		3A4658412F031B5500A97A8D /* resource_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resource_init.c; sourceTree = "<group>"; };
 		3A4C3C9F2ED4F0AD0050ACCF /* chipnomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chipnomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA61FDD2F007B7100744AC1 /* haptic_feedback_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = haptic_feedback_ios.m; sourceTree = "<group>"; };
+		3AF5932F2F1F6C9C00A9B03D /* keyboard_layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyboard_layout.h; sourceTree = "<group>"; };
+		3AF593302F1F6C9C00A9B03D /* keyboard_layout.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = keyboard_layout.c; sourceTree = "<group>"; };
+		3AF593362F1F6CAE00A9B03D /* waveform_display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waveform_display.h; sourceTree = "<group>"; };
+		3AF593372F1F6CAE00A9B03D /* waveform_display.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = waveform_display.c; sourceTree = "<group>"; };
+		3AF593392F1F6CC800A9B03D /* screen_color_theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = screen_color_theme.h; sourceTree = "<group>"; };
+		3AF5933A2F1F6CC800A9B03D /* screen_color_theme.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = screen_color_theme.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -800,6 +809,8 @@
 				3A1BB9BB2EFEE2A4003E5AB1 /* project_ay.c */,
 				3A1BB9BC2EFEE2A4003E5AB1 /* screen_chain.c */,
 				3A1BB9BD2EFEE2A4003E5AB1 /* screen_confirm.c */,
+				3AF593392F1F6CC800A9B03D /* screen_color_theme.h */,
+				3AF5933A2F1F6CC800A9B03D /* screen_color_theme.c */,
 				3A1BB9BE2EFEE2A4003E5AB1 /* screen_create_folder.h */,
 				3A1BB9BF2EFEE2A4003E5AB1 /* screen_create_folder.c */,
 				3A1BB9C02EFEE2A4003E5AB1 /* screen_export.h */,
@@ -838,10 +849,14 @@
 				3A1BB9D82EFEE2A4003E5AB1 /* common.c */,
 				3A1BB9D92EFEE2A4003E5AB1 /* copy_paste.h */,
 				3A1BB9DA2EFEE2A4003E5AB1 /* copy_paste.c */,
+				3AF5932F2F1F6C9C00A9B03D /* keyboard_layout.h */,
+				3AF593302F1F6C9C00A9B03D /* keyboard_layout.c */,
 				3A1BB9DB2EFEE2A4003E5AB1 /* pitch_table_utils.h */,
 				3A1BB9DC2EFEE2A4003E5AB1 /* pitch_table_utils.c */,
 				3A1BB9DD2EFEE2A4003E5AB1 /* project_utils.h */,
 				3A1BB9DE2EFEE2A4003E5AB1 /* project_utils.c */,
+				3AF593362F1F6CAE00A9B03D /* waveform_display.h */,
+				3AF593372F1F6CAE00A9B03D /* waveform_display.c */,
 				3A1BB9DF2EFEE2A4003E5AB1 /* version.h */,
 				3A1BB9E02EFEE2A4003E5AB1 /* version.c */,
 			);
@@ -1281,10 +1296,12 @@
 				3A1BBABA2EFEE2A4003E5AB1 /* ayumi_filters.c in Sources */,
 				3A1BBABB2EFEE2A4003E5AB1 /* screen_instrument_pool.c in Sources */,
 				3A1BBABC2EFEE2A4003E5AB1 /* screen_confirm.c in Sources */,
+				3AF5933B2F1F6CC800A9B03D /* screen_color_theme.c in Sources */,
 				3A1BBABD2EFEE2A4003E5AB1 /* export_psg.c in Sources */,
 				3A1BBABE2EFEE2A4003E5AB1 /* screen_song.c in Sources */,
 				3A1BBABF2EFEE2A4003E5AB1 /* font24x36.c in Sources */,
 				3A1BBAC02EFEE2A4003E5AB1 /* playback.c in Sources */,
+				3AF593382F1F6CAE00A9B03D /* waveform_display.c in Sources */,
 				3A1BBAC12EFEE2A4003E5AB1 /* screen_table.c in Sources */,
 				3A1BBAC22EFEE2A4003E5AB1 /* project.c in Sources */,
 				3A1BBAC42EFEE2A4003E5AB1 /* screens.c in Sources */,
@@ -1297,6 +1314,7 @@
 				3A1BBACE2EFEE2A4003E5AB1 /* chipnomad_lib.c in Sources */,
 				3A1BBACF2EFEE2A4003E5AB1 /* screen_instrument.c in Sources */,
 				3A1BBAD22EFEE2A4003E5AB1 /* main.c in Sources */,
+				3AF593312F1F6C9C00A9B03D /* keyboard_layout.c in Sources */,
 				3A1BBAD32EFEE2A4003E5AB1 /* app.c in Sources */,
 				3A1BBAD52EFEE2A4003E5AB1 /* screen_settings.c in Sources */,
 				3A1BBAD72EFEE2A4003E5AB1 /* screen_manage.c in Sources */,
